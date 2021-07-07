@@ -2,7 +2,9 @@
 
 const today = () => {
   // write code for dates.today
-
+  let oneDay = moment('02-01-2021', 'DD-MM-YYYY');
+  let dayName = oneDay.format('dddd');
+  
 }
 
 const calendar = () => {
