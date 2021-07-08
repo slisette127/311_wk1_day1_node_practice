@@ -2,18 +2,18 @@
 
 const today = () => {
   // write code for dates.today
-  let oneDay = moment('02-01-2021', 'DD-MM-YYYY');
-  let dayName = oneDay.format('dddd');
+    return moment.format('dddd');
   
 }
 
 const calendar = () => {
   // write code for dates.calendar
-  moment().format('MMMM Do YYYY, h:mm:ss a');
+  return moment().format('MMMM D YYYY');
 }
 
 const currentTime = () => {
   // write code for dates.currentTime
+  return moment().format('hh:mm:ss A');
 
 }
 
